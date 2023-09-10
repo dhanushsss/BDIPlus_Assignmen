@@ -47,31 +47,11 @@ Before you begin, ensure you have met the following requirements:
 ### Request Body:
 
 
-```shell
-{
-  "customerName": "John Doe",
-  "customerEmail": "john.doe@example.com",
-  "customerPhoneNumber": "+1234567890",
-  "customerPassword": "secret",
-  "customerAddress": "123 Main St",
-  "customerUserName": "johndoe",
-  "customerCardNo": 1234567890123456
-}
-
 
 ## Update an Existing Customer
 ### Endpoint: http://localhost:8080/api/v1/customers/update/{id}
 ### Method: PUT
 ### Request Body:
-
-
-
-```shell
-{
-  "customerName": "Updated Name",
-  "customerEmail": "updated.email@example.com"
-  // Include other updated fields
-}
 
 
 
@@ -84,6 +64,16 @@ Before you begin, ensure you have met the following requirements:
 
 
 
+```shell
+{
+  "customerName": "John Doe",
+  "customerEmail": "john.doe@example.com",
+  "customerPhoneNumber": "+1234567890",
+  "customerPassword": "secret",
+  "customerAddress": "123 Main St",
+  "customerUserName": "johndoe",
+  "customerCardNo": 1234567890123456
+}
 
 
 
