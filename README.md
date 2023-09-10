@@ -49,16 +49,16 @@ Before you begin, ensure you have met the following requirements:
 
 
 ## Update an Existing Customer
-### Endpoint: http://localhost:8080/api/v1/customers/update/{id}
+### Endpoint: http://localhost:8080/api/v1/customers/update/{customerId}
 ### Method: PUT
 ### Request Body:
 
 
 
 ## Delete a Customer
-### Endpoint: http://localhost:8080/api/v1/customers/delete/{id}
+### Endpoint: http://localhost:8080/api/v1/customers/delete/{customerId}
 ### Method: DELETE
-### Send a DELETE request to delete a customer by ID. Replace {id} with the customer's ID.
+### Send a DELETE request to delete a customer by ID. Replace {customerId} with the customer's ID.
 
 
 
