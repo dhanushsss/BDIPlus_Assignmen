@@ -18,15 +18,15 @@ Before you begin, ensure you have met the following requirements:
 
    ```shell
    git clone https://github.com/dhanushsss/BDIPlus_Assignmen.git
-
+   ```
 
 
 
 ## Navigate to the project directory:
 
-
+```shell
    cd your-project
-
+```
 
 
    API Endpoints
@@ -43,6 +43,19 @@ Before you begin, ensure you have met the following requirements:
 ## Add a New Customer
 ### Endpoint: http://localhost:8080/api/v1/customers/add
 ### Method: POST
+
+``` json
+{
+  "customerName": "John Doe",
+  "customerEmail": "john.doe@example.com",
+  "customerPhoneNumber": "+1234567890",
+  "customerPassword": "secret",
+  "customerAddress": "123 Main St",
+  "customerUserName": "johndoe",
+  "customerCardNo": 1234567890123456
+}
+```
+
 
 
 
