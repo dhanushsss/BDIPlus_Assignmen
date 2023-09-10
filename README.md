@@ -59,6 +59,29 @@ Before you begin, ensure you have met the following requirements:
 }
 
 
+## Update an Existing Customer
+### Endpoint: http://localhost:8080/api/v1/customers/update/{id}
+### Method: PUT
+### Request Body:
+
+
+
+```shell
+{
+  "customerName": "Updated Name",
+  "customerEmail": "updated.email@example.com"
+  // Include other updated fields
+}
+
+
+
+## Delete a Customer
+### Endpoint: http://localhost:8080/api/v1/customers/delete/{id}
+### Method: DELETE
+### Send a DELETE request to delete a customer by ID. Replace {id} with the customer's ID.
+
+
+
 
 
 
