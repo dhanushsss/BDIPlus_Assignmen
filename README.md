@@ -43,14 +43,12 @@ Before you begin, ensure you have met the following requirements:
 ## Add a New Customer
 ### Endpoint: http://localhost:8080/api/v1/customers/add
 ### Method: POST
-### Request Body:
 
 
 
 ## Update an Existing Customer
 ### Endpoint: http://localhost:8080/api/v1/customers/update/{customerId}
 ### Method: PUT
-### Request Body:
 
 
 
