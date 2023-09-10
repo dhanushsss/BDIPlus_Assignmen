@@ -24,14 +24,14 @@ Before you begin, ensure you have met the following requirements:
 
 ## Navigate to the project directory:
 
-   ```shell
+
    cd your-project
 
 
 
    API Endpoints
 
-   
+
 ### Base URL: http://localhost:8080
 ## Endpoint	Method	Description
 ### /api/v1/customers/all	GET	Get a list of all customers
