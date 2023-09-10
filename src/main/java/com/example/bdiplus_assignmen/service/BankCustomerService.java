@@ -73,6 +73,6 @@ public class BankCustomerService implements BankCustomerDao {
         if (customer.getCustomerName() == null || customer.getCustomerName().isEmpty()) {
             throw new IllegalArgumentException("Customer name is required.");
         }
-        // Add more validation as needed
+
     }
 }

@@ -63,7 +63,7 @@ public class BankCustomerController {
 
 
     @GetMapping("/AllBankCustomer")
-    public ResponseEntity<List<BankCustomer>> getAllTasks() {
+    public ResponseEntity<List<BankCustomer>> getAllBankCustomer() {
         List<BankCustomer> customers = customerService.selectAllBankCustomer();
         return ResponseEntity.ok(customers);
     }
