@@ -16,7 +16,7 @@ Before you begin, ensure you have met the following requirements:
 
 1. Clone the repository:
 
-   ```shell
+   `shell
    git clone https://github.com/dhanushsss/BDIPlus_Assignmen.git
 
 
