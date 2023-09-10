@@ -34,12 +34,11 @@ Before you begin, ensure you have met the following requirements:
 
 ### Base URL: http://localhost:8080
 ## Endpoint	Method	Description
-### /api/v1/customers/all	GET	Get a list of all customers
-### /api/v1/customers/{customerId}	GET	Get customer details by ID
-### /api/v1/customers/addBankCustomer	POST	Add a new customer
-### /api/v1/customers/update/{customerId}	PUT	Update an existing customer by ID
-### /api/v1/customers/delete/{customerId}	DELETE	Delete a customer by ID
-
+- /api/v1/customers/all	GET	Get a list of all customers
+- /api/v1/customers/{customerId}	GET	Get customer details by ID
+- /api/v1/customers/addBankCustomer	POST	Add a new customer
+- /api/v1/customers/update/{customerId}	PUT	Update an existing customer by ID
+- /api/v1/customers/delete/{customerId}	DELETE	Delete a customer by ID
 
 ## Add a New Customer
 ### Endpoint: http://localhost:8080/api/v1/customers/add
