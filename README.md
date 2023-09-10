@@ -2,15 +2,15 @@
 
 # Bank Customer Management
 
-### The Bank Customer Management  is a Spring Boot application designed for managing bank customer records. It provides full CRUD (Create, Read, Update, Delete) operations to handle customer data. This system offers a user-friendly interface for adding and retrieving customer information.
+- The Bank Customer Management  is a Spring Boot application designed for managing bank customer records. It provides full CRUD (Create, Read, Update, Delete) operations to handle customer data. This system offers a user-friendly interface for adding , retrieving, Deleting customer information.
 
 ## Technologies Used:
 
-### Spring Boot: The project is built using Spring Boot, a powerful framework that simplifies the development of robust and scalable Java applications.
+- Spring Boot: The project is built using Spring Boot, a powerful framework that simplifies the development of robust and scalable Java applications.
 
-### RESTful API: The application exposes a RESTful API, allowing seamless communication with the backend services.
+- RESTful API: The application exposes a RESTful API, allowing seamless communication with the backend services.
 
-### Database: Bank customer data is stored and managed efficiently in a relational database system, like MySQL.
+- Database: Bank customer data is stored and managed efficiently in a relational database system, like MySQL.
 
 
 
