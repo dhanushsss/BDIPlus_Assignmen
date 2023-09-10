@@ -16,7 +16,7 @@ Before you begin, ensure you have met the following requirements:
 
 1. Clone the repository:
 
-   `shell
+   ```shell
    git clone https://github.com/dhanushsss/BDIPlus_Assignmen.git
 
 
@@ -24,6 +24,7 @@ Before you begin, ensure you have met the following requirements:
 
 ## Navigate to the project directory:
 
+   ```shell
    cd your-project
 
 
@@ -45,6 +46,8 @@ Before you begin, ensure you have met the following requirements:
 ### Method: POST
 ### Request Body:
 
+
+```shell
 {
   "customerName": "John Doe",
   "customerEmail": "john.doe@example.com",
