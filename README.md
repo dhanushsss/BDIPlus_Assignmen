@@ -1,6 +1,19 @@
-# BDIPlus_Assignmen
+# BDIPlus_Assignment
 
-Brief description of this project.
+# Bank Customer Management
+
+### The Bank Customer Management  is a Spring Boot application designed for managing bank customer records. It provides full CRUD (Create, Read, Update, Delete) operations to handle customer data. This system offers a user-friendly interface for adding and retrieving customer information.
+
+## Technologies Used:
+
+### Spring Boot: The project is built using Spring Boot, a powerful framework that simplifies the development of robust and scalable Java applications.
+
+### RESTful API: The application exposes a RESTful API, allowing seamless communication with the backend services.
+
+### Database: Bank customer data is stored and managed efficiently in a relational database system, like MySQL.
+
+
+
 
 ## Prerequisites
 
@@ -28,9 +41,23 @@ Before you begin, ensure you have met the following requirements:
    cd your-project
 ```
 
+## Build the project using Maven:
 
-   API Endpoints
+```shell
+mvn clean install
+```
 
+## Create a MySQL database and update the application.properties file with your database configuration:
+
+``` application.properties
+spring.datasource.url=jdbc:mysql://localhost:3306/Bank
+spring.datasource.username=username
+spring.datasource.password=password
+```
+
+
+
+# API Endpoints
 
 ### Base URL: http://localhost:8080
 ## Endpoint	Method	Description
@@ -40,9 +67,18 @@ Before you begin, ensure you have met the following requirements:
 - /api/v1/customers/update/{customerId}	PUT	Update an existing customer by ID
 - /api/v1/customers/delete/{customerId}	DELETE	Delete a customer by ID
 
+# Testing the APIs
+- I used a tool Postman to test the API endpoints.
+- Send requests to the API endpoints using the imported collection.
+
+
+# Sample 
+
 ## Add a New Customer
 ### Endpoint: http://localhost:8080/api/v1/customers/add
 ### Method: POST
+
+
 
 ``` json
 {
@@ -55,8 +91,6 @@ Before you begin, ensure you have met the following requirements:
   "customerCardNo": 1234567890123456
 }
 ```
-
-
 
 
 ## Update an Existing Customer
