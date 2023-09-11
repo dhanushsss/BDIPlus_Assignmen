@@ -47,6 +47,12 @@ Before you begin, ensure you have met the following requirements:
 mvn clean install
 ```
 
+## Start Spring Boot Project.
+
+``` shell
+   Maven spring-boot:run
+```
+
 ## Create a MySQL database and update the application.properties file with your database configuration:
 
 ``` application.properties
